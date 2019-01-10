@@ -1,0 +1,34 @@
+.block-cta{
+  width: 100%;
+  height: 60vh;
+  min-height: 60vh;
+  background: $color-brand-2;
+  display: table;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: $box-shadow-alt;
+  border-radius: .5em;
+  .block-cta-overlay{
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    background: $color-brand-2;
+    background: linear-gradient(to right, $color-white 30%, $color-brand-3 50%);
+    opacity: .8;
+    border-radius: .5em;
+  }
+  .block-cta-content{
+    position: relative;
+    @media (max-width: $tablet) {
+      h2{
+        font-size: 2.5rem;
+      }
+    }
+  }
+  
+}

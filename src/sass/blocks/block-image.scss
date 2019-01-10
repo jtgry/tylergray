@@ -1,0 +1,46 @@
+.block-container:nth-child(even){
+  height: 100%;
+  .block-image{
+    float: right;
+    margin-right: 0;
+  }
+}
+
+.block-image{
+  height: auto;
+  @include column(1/2);
+  @media (max-width: $tablet) {
+    @include stack();
+    margin-bottom: $spacing-unit / 2;
+  }
+
+}
+
+.block-content{
+  height: 60vh;
+  display: table;
+  max-width: $content-width;
+  margin: 0 auto;
+  @include column(1/2);
+  h2{
+    margin-bottom: $spacing-unit / 2;
+  }
+  p{
+    margin-bottom: $spacing-unit / 1;
+
+  }
+  button, a.button{
+    margin: 0;
+  }
+  @media (max-width: $tablet) {
+    height: 100%;
+    h2{
+      font-size: 2.5rem;
+    }
+    @include stack();
+    .container{
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

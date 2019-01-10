@@ -1,0 +1,82 @@
+.block-showcase{
+  width: 100%;
+  .block-showcase-content{
+    padding: 0 $spacing-unit * 2;
+    max-width: $content-width;
+    margin: 0 auto;
+    margin-bottom: $spacing-unit * 2;
+    @media (max-width: $tablet) {
+      padding: 0;
+      margin: 0;
+    }
+    h2{
+      text-align: center;
+      letter-spacing: .1em;
+      font-size: .9rem;
+      font-family: $alt-font-family;
+      color: $color-grey;
+      margin-bottom: $spacing-unit * 1;
+      @media (max-width: $tablet) {
+        margin-bottom: $spacing-unit;
+      }
+
+    }
+    hr{
+      max-width: 3em;
+      height: .2em;
+      background: $color-brand-2;
+    }
+    p{
+      font-family: $header-font-family;
+      font-size: 2rem;
+      text-align: center;
+      @media (max-width: $tablet) {
+      font-size: 1.8rem;
+      }
+    }
+  }
+  .block-showcase-items{
+    width: 100%;
+  }
+  .block-showcase-item{
+    border-radius: .3em;
+    margin-bottom: $spacing-unit;
+    
+    @include column(1/2, $cycle: 2);
+    @media (max-width: $tablet) {
+      @include stack();
+      margin-bottom: $spacing-unit / 2;
+    }
+    img{
+      min-width: 100%;
+      border-radius: .3em;
+      box-shadow: $box-shadow;
+    }
+    .block-showcase-item-content{
+      padding: $spacing-unit;
+      text-align: center;
+      @media (max-width: $tablet) {
+      padding: $spacing-unit / 2 0;
+      }
+      h3{
+        font-size: 1.6rem;
+        letter-spacing: .01em;
+      }
+      h4{
+        color: $color-brand-2;
+        font-family: $alt-font-family;
+        text-transform: uppercase;
+        font-size: .9rem;
+        letter-spacing: .2em;
+      }
+      p{
+        font-size: 0.8rem;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+      }
+      .button{
+        padding: .8em 1.2em;
+      }
+    }
+  }
+}

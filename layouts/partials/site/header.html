@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="vertical">
+    <div class="site-header-content">
+      <div class="site-header-cta">
+        <div class="container">
+          <h1>In a digital world</h1>
+          <h2>Every business needs a superhero they can rely on</h2>
+          <p>Ready to start growing your business or organization?</p>
+          <a href="{{ .Params.button_url }}" class="button"><span>{{ .Params.button_text }}</span></a>
+        </div>
+      </div>
+      <div class="site-header-image">
+        <div class="container">
+        {{- with .Params.image -}}
+          <img src="{{ . }}" alt="">
+        {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
