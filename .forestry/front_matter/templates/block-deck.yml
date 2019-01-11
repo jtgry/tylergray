@@ -2,6 +2,7 @@
 label: Block Deck
 hide_body: false
 is_partial: true
+display_field: heading
 fields:
 - type: text
   name: heading
@@ -11,4 +12,6 @@ fields:
   label: Content
 - type: blocks
   name: items
-  label: items
+  label: Items
+  template_types:
+  - block-item
