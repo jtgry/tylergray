@@ -44,10 +44,10 @@ blocks:
     button_url: https://lakemartinminimall.com
     button_text: Learn More
   - template: block-item
-    heading: Reformation Baptist Church
-    content: Design, Development, SEO
-    image: "/uploads/reformationbaptist.jpg"
-    button_url: https://reformationbaptist.com
+    heading: Fort Toulouse - Fort Jackson
+    content: Design, Development, Branding, Marketing, SEO
+    image: "/uploads/forttoulouse.jpg"
+    button_url: https://fttoulousejackson.org
     button_text: Learn More
   - template: block-item
     heading: Bless Your Heart
@@ -56,10 +56,10 @@ blocks:
     button_url: https://blessyourheartal.com
     button_text: Learn More
   - template: block-item
-    heading: Fort Toulouse - Fort Jackson
-    content: Design, Development, Branding, Marketing, SEO
-    image: "/uploads/forttoulouse.jpg"
-    button_url: https://fttoulousejackson.org
+    heading: Reformation Baptist Church
+    content: Design, Development, SEO
+    image: "/uploads/reformationbaptist.jpg"
+    button_url: https://reformationbaptist.com
     button_text: Learn More
   - template: block-item
     heading: Lake Martin Chiro
