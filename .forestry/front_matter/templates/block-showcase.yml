@@ -1,0 +1,16 @@
+---
+label: Block Showcase
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: heading
+  label: Heading
+- type: textarea
+  name: content
+  label: Content
+- type: blocks
+  name: items
+  label: Items
+  template_types:
+  - block-item
