@@ -1,18 +1,15 @@
 .block-feature{
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   display: table;
   .block-feature-content{
-    padding: $spacing-unit * 4;
+    padding: $spacing-unit * 4 0;
     max-width: $content-width;
     margin: 0 auto;
     p{
       font-family: $header-font-family;
       font-size: 3rem;
       text-align: center;
-      @media (max-width: $tablet) {
-        text-align: left;
-      }
     }
     hr{
       max-width: 3em;

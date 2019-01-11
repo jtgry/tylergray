@@ -20,9 +20,6 @@ blocks:
     - template: block-item
       heading: Digital Strategy
       content: Need help with rebranding or increasing your digital presence? Let’s talk about what I can do for you.
-    - template: block-item
-      heading: Digital Strategy
-      content: Need help with rebranding or increasing your digital presence? Let’s talk about what I can do for you.
 - template: block-showcase
   heading: Latest Work
   content: Check out some of my latest work.
