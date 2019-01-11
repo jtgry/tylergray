@@ -9,6 +9,7 @@ assetDir= "static"
 
 [params]
 disallow_search_engines = false # set robots.txt to disallow everything
+description = "With over 8 years of professional IT experience, I have a passion for creating solutions using technology. Although I specialize in Web Design & Development, I also consult with businesses in multiple areas to improve their efficiency and productivity."
 
 # add redirects/headers
 [outputs]
@@ -63,6 +64,4 @@ notAlternative = true
   weight = 4
   url = "https://www.instagram.com/jtgry/"
 
-[params]
-description = "With over 8 years of professional IT experience, I have a passion for creating solutions using technology. Although I specialize in Web Design & Development, I also consult with businesses in multiple areas to improve their efficiency and productivity."
 
