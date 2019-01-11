@@ -41,8 +41,7 @@
   .block-showcase-item{
     border-radius: .3em;
     margin-bottom: $spacing-unit;
-    
-    
+    @include column(1/2, $cycle: 2);
     @media (max-width: $tablet) {
       @include stack();
       margin-bottom: $spacing-unit / 2;
