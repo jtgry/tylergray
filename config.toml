@@ -63,17 +63,6 @@ notAlternative = true
   weight = 4
   url = "https://www.instagram.com/jtgry/"
 
-[related]
-threshold = 80
-includeNewer = true
-toLower = false
-[[related.indices]]
-name = "title"
-weight = 100
-[[related.indices]]
-name = "category"
-weight = 100
-[[related.indices]]
-name  = "date"
-weight = 10
-pattern = "2006"
+[params]
+description = "With over 8 years of professional IT experience, I have a passion for creating solutions using technology. Although I specialize in Web Design & Development, I also consult with businesses in multiple areas to improve their efficiency and productivity."
+

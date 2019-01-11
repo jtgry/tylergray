@@ -3,4 +3,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 {{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+
+<meta property="og:title" content="{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }} | Alabama Web Design Technology">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:image" content="/images/website.jpg">
+<meta property="og:url" content="{{ .URL }}">
+
+{{ template "_internal/google_analytics.html" . }}
+
 {{ .Hugo.Generator }}
