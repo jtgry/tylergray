@@ -48,6 +48,25 @@ notAlternative = true
   weight = 3
   url = "/portfolio/"
 
+[[menu.footer]]
+  name = "Home"
+  weight = 1
+  url = "/"
+
+[[menu.footer]]
+  name = "Message"
+  weight = 2
+  url = "/message"
+
+[[menu.footer]]
+  name = "Github"
+  weight = 3
+  url = "https://github.com/jtgry"
+
+[[menu.footer]]
+  name = "Instagram"
+  weight = 4
+  url = "https://www.instagram.com/jtgry/"
 
 [related]
 threshold = 80

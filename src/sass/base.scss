@@ -66,7 +66,7 @@ p{
   font-family: $base-font-family;
   font-size: 1.1rem;
   color: $color-white;
-  letter-spacing: -.02em;
+  letter-spacing: -.01em;
 }
 li,ol{
     font-family: $base-font-family;
@@ -126,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     color: $color-brand-3;
     margin-bottom: $spacing-unit / 4;
+    letter-spacing: .01em;
 }
 
 /**
