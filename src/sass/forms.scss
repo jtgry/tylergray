@@ -45,6 +45,7 @@ select option{
 }
 textarea.form-control{
   font-family: $base-font-family;
+  color: $color-white;
   text-align: left;
   margin-bottom: $spacing-unit / 2;
   height: 1.6em;
