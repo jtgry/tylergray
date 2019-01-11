@@ -42,7 +42,7 @@
     border-radius: .3em;
     margin-bottom: $spacing-unit;
     
-    @include column(1/2, $cycle: 2);
+    
     @media (max-width: $tablet) {
       @include stack();
       margin-bottom: $spacing-unit / 2;
@@ -76,6 +76,7 @@
       }
       .button{
         padding: .8em 1.2em;
+        margin: 0;
       }
     }
   }
