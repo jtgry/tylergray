@@ -36,17 +36,12 @@ notAlternative = true
 [[menu.main]]
   name = "About"
   weight = 1
-  url = "/about/"
-
-[[menu.main]]
-  name = "Inquiries"
-  weight = 2
-  url = "/inquiries/"
+  url = "/#about"
 
 [[menu.main]]
   name = "Portfolio"
   weight = 3
-  url = "/portfolio/"
+  url = "/#portfolio"
 
 [[menu.footer]]
   name = "Home"
@@ -56,7 +51,7 @@ notAlternative = true
 [[menu.footer]]
   name = "Message"
   weight = 2
-  url = "/message"
+  url = "/contact"
 
 [[menu.footer]]
   name = "Github"

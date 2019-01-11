@@ -41,8 +41,10 @@
   background: $color-brand-1;
   padding: $spacing-unit / 2 0;
   @media (max-width: $tablet) {
+    padding: 0;
     .container{
-      margin: 0 auto;
+      width: 96%;
+      margin: 0 2%;
       padding: 0;
     }
   }

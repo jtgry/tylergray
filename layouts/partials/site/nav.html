@@ -7,7 +7,7 @@
       <ul>
       {{ range .Site.Menus.main.ByWeight }}
         <li>
-          <a href="{{ .URL }}">{{ .Name }}</a>
+          <a href="{{ .URL }}" class="scroll" data-speed="1000">{{ .Name }}</a>
         </li>
       {{ end }}
         <li>

@@ -6,7 +6,7 @@ button_text: Learn More
 blocks:
 - template: block-feature
   heading: Built In The South
-  content: Hello, my name is **Tyler**. I'm a technology consultant that works to provide the best digital solutions for your business.
+  content: Hello, my name is **Tyler**. I am a technology consultant that works to provide the best digital solutions for your business.
 - template: block-deck
   heading: What can I do for you?
   content: With over 8 years of professional IT experience, I have a passion for creating solutions using technology. Although I specialize in **Web Design & Development**, I also consult with businesses in multiple areas to improve their efficiency and productivity.

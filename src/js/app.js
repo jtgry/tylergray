@@ -15,6 +15,7 @@ function removeClass(ele,cls) {
 
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('page').className = "load";
+  
 
   window.sr = ScrollReveal({
     delay: 1,
@@ -75,8 +76,5 @@ document.addEventListener("DOMContentLoaded", function() {
       load_delay: 300
     });
   });
-  // Image Process
-
-
 
 });
