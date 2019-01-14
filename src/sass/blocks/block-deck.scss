@@ -19,6 +19,17 @@
     h3{
       font-size: 1.6rem;
     }
+    h4{
+      color: $color-brand-2;
+      margin: 0;
+      opacity: .6;
+      font-size: 3rem;
+      font-weight: 400;
+      line-height: 1.2;
+      &::first-letter{
+        font-size: 2rem;
+      }
+    }
     p{
       font-size: 1.1rem;
     }

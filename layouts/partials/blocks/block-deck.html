@@ -11,13 +11,15 @@
     </div>
     <div class="block-deck-items">
       {{- if .Params.items -}}
-        {{ range .Params.items }}
+        {{ range $index, $item := .Params.items }}
         <div class="block-deck-item">
         	<div class="block-deck-item-content">
-          {{ with .heading }}
+          {{ with $item.heading }}
+          	{{ $number := add $index 01 }}
+          	<h4>{{ printf "%02d" $number }}</h4>
             <h3>{{ markdownify . }}</h3>
           {{ end }}
-          {{- with .content -}}
+          {{- with $item.content -}}
             <p>{{ markdownify . }}</p>
           {{- end -}}
         	</div>

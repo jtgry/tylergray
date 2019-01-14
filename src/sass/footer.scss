@@ -6,6 +6,18 @@
   color: $color-brand-3;
   text-align: center;
   padding: $spacing-unit * 2 0;
+  .profile-image{
+
+  img{
+  overflow: hidden;
+  border: solid 3px $color-brand-2;
+  border-radius: .3em;
+  height: 4em;
+  width: 4em;
+  margin: 0 auto;
+  margin-bottom: $spacing-unit / 2;
+  }
+  }
   h3{
     font-size: 1.2rem;
     text-transform: uppercase;
