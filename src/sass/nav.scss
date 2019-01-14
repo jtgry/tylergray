@@ -61,10 +61,10 @@ a.nav-button {
 }
 @import "burger";
 .burger-icon {
-	@include burger(30px, 3px, 5px, $color-brand-3);
+	@include burger(30px, 2px, 6px, $color-brand-3);
 }
 .dark .burger-icon {
-	@include burger(30px, 3px, 5px, $color-brand-3);
+	@include burger(30px, 2px, 6px, $color-brand-3);
 }
 .nav-button.is-active .burger-icon {
 	@include burger-to-cross($color-brand-3);
